@@ -1,6 +1,6 @@
 AUTHOR = 'Fooocus Community'
 SITENAME = 'Fooocus - an image generating engine focuses on prompting'
-SITEURL = ""
+SITEURL = "https://fooocus.dev"
 
 PATH = "content"
 
