@@ -75,3 +75,18 @@ hr.gradient {
 }
 
 body { background-color: #fffff9; }
+
+
+.header-title {
+	font-family: "Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+
+@media only screen and (min-width: 40.063em){
+	.header-title {
+		font-size: 2.75rem;
+		line-height: 1.4;
+	}
+}
