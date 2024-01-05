@@ -25,8 +25,8 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("fooocus Github Repository", "https://github.com/lllyasviel/Fooocus"),
+    ("/r/fooocus on Reddit", "https://www.reddit.com/r/fooocus/"),
 )
 
 DEFAULT_PAGINATION = 5
