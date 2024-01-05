@@ -17,17 +17,15 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    # ("Pelican", "https://getpelican.com/"),
-    # ("Python.org", "https://www.python.org/"),
-    # ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    # ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
-SOCIAL = (
     ("fooocus Github Repository", "https://github.com/lllyasviel/Fooocus"),
     ("/r/fooocus on Reddit", "https://www.reddit.com/r/fooocus/"),
 )
+
+# Social widget
+# SOCIAL = (
+#     ("fooocus Github Repository", "https://github.com/lllyasviel/Fooocus"),
+#     ("/r/fooocus on Reddit", "https://www.reddit.com/r/fooocus/"),
+# )
 
 DEFAULT_PAGINATION = 5
 
