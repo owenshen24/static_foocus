@@ -1,3 +1,12 @@
+Fooocus
+##############
+
+:date: 2024-01-01 10:20
+:modified: 2024-01-01 18:40
+:slug: fooocus
+:authors: Fooocus Community
+:summary: Introduction to fooocus
+
 ## What is Fooocus
 
 Fooocus is a **software tool for generating images based on text prompts**. It's designed to be **simpler and easier to use** than some other popular options like Stable Diffusion or Midjourney. Here's a breakdown of its key features:
