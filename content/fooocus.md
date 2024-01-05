@@ -1,11 +1,9 @@
-Fooocus
-##############
-
-:date: 2024-01-01 10:20
-:modified: 2024-01-01 18:40
-:slug: fooocus
-:authors: Fooocus Community
-:summary: Introduction to fooocus
+Title: Fooocus
+Date: 2024-01-01 10:20
+Modified: 2024-01-01 10:20
+Slug: fooocus
+Authors: Alexis Metaireau, Conan Doyle
+Summary: Introduction to fooocus
 
 ## What is Fooocus
 
