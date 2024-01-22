@@ -4,38 +4,311 @@
 
 <h1>Fooocus</h1>
 
-    <h2>What is Fooocus</h2>
-    <p>Fooocus is a <strong>software tool for generating images based on text prompts</strong>. It's designed to be <strong>simpler and easier to use</strong> than some other popular options like Stable Diffusion or Midjourney. Here's a breakdown of its key features:</p>
-    <p><strong>Focus on Prompting:</strong></p>
-    <ul>
-    <li><strong>Minimal technical parameters:</strong>  Fooocus minimizes the need for tweaking complex settings, letting you focus on crafting good text prompts to guide the image generation.</li>
-    <li><strong>Small language model integration:</strong>  It uses a small language model (GPT-2) to analyze and strengthen your prompts, improving the chances of getting the desired results.</li>
-    </ul>
-    <p><strong>Simplified Workflow:</strong></p>
-    <ul>
-    <li><strong>Open-source and offline:</strong>  No need for online accounts or connections, ensuring complete privacy and control over your data.</li>
-    <li><strong>Easy installation and usage:</strong>  Few clicks from download to generating your first image, even for users with no technical background.</li>
-    <li><strong>Preset styles and model options:</strong>  Choose from several predefined art styles or pre-trained models for specific needs like generating anime or realistic images.</li>
-    </ul>
-    <p><strong>Community and Development:</strong></p>
-    <ul>
-    <li><strong>Open-source project:</strong>  Active community contributes to its development and shares tips and resources.</li>
-    <li><strong>Created by the author of ControlNet:</strong>  Developed by David Holz, known for his work on other AI art tools, which lends to its technical competence.</li>
-    </ul>
-    <p><strong>Here are some potential downsides to consider:</strong></p>
-    <ul>
-    <li><strong>Less powerful than advanced tools:</strong>  It focuses on ease of use over fine-grained control. For advanced users looking for maximum customization, tools like Stable Diffusion might be better.</li>
-    <li><strong>Limited model options:</strong>  Currently offers only a few pre-trained models, while other tools have wider selections.</li>
-    <li>
-    <p><strong>Early stage of development:</strong>  Potential for bugs and unexpected behavior compared to more established tools.</p>
-    </li>
-    <li>
-    <p><strong>Fooocus GitHub repository:</strong>  <a href="https://github.com/lllyasviel/Fooocus">https://github.com/lllyasviel/Fooocus</a></p>
-    </li>
-    </ul>
-    <p><strong>This unoffical site was set up to provide a reliable place to gather resources about Foooocus, as well as to provide easy access to documentation.</strong></p>
-    
-    </p>
+<h2 id="what-is-fooocus">What is Fooocus</h2>
+<p>Fooocus is a  software tool for generating images based on text prompts. It&#39;s designed to be  simpler and easier to use  than other popular software/services like Stable Diffusion or Midjourney. Fooocus is based on Gradio, a framework that allows developers to quickly build web interface for any machine learning model.</p>
+<p>Here&#39;s a breakdown of its key features:</p>
+<p><strong>Focus on Prompting:</strong></p>
+<ul>
+<li><strong>Minimal technical parameters:</strong>  Fooocus minimizes the need for tweaking complex settings, letting you focus on crafting good text prompts to guide the image generation.</li>
+<li><strong>Small language model integration:</strong>  It uses a small language model (GPT-2) to analyze and strengthen your prompts, improving the chances of getting the desired results.</li>
+</ul>
+<p><strong>Simplified Workflow:</strong></p>
+<ul>
+<li><strong>Completely Open-source and offline:</strong>  No need for online accounts or connections, ensuring complete privacy and control over your data.</li>
+<li><strong>Easy installation and usage:</strong>  All it takes is a few clicks from download to generating your first image, even for users with no technical background. Just follow the official instructions.</li>
+<li><strong>Preset styles and model options:</strong>  Choose from several predefined art styles or pre-trained models for specific needs like generating anime or realistic images.</li>
+</ul>
+<p><strong>Community and Development:</strong></p>
+<ul>
+<li><strong>Open-source project:</strong>  Active community contributes to its development and shares tips and resources.</li>
+<li><strong>Created by the author of ControlNet:</strong>  Developed by David Holz, known for his work on other AI art tools, which lends to its technical competence.</li>
+</ul>
+<p><strong>Here are some potential downsides to consider:</strong></p>
+<ul>
+<li><strong>Less powerful than advanced tools:</strong>  It focuses on ease of use over fine-grained control. For advanced users looking for maximum customization, tools like Stable Diffusion might be better.</li>
+<li><strong>Limited model options:</strong>  Currently offers only a few pre-trained models, while other tools have wider selections.</li>
+<li><p><strong>Early stage of development:</strong>  Potential for bugs and unexpected behavior compared to more established tools.</p>
+</li>
+<li><p><strong>Fooocus GitHub repository:</strong>  <a href="https://github.com/lllyasviel/Fooocus">https://github.com/lllyasviel/Fooocus</a></p>
+</li>
+</ul>
+<h2 id="fooocus-vs-midjourney">Fooocus vs Midjourney</h2>
+<p>The biggest difference between Fooocus and Midjourney is Fooocus is open source, thus it&#39;s free and you can generate as many images as you want to. Here&#39;s a quick comparison table:</p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Fooocus</th>
+<th>Midjourney</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description</td>
+<td>A project focused on prompting and generating with AI.</td>
+<td>An independent research lab working on various AI projects.</td>
+</tr>
+<tr>
+<td>License</td>
+<td>GPL-3.0 license (free and copyleft).</td>
+<td>Freemium</td>
+</tr>
+<tr>
+<td>GitHub Popularity</td>
+<td>29.2k stars, 3.2k forks.</td>
+<td>Not specified.</td>
+</tr>
+<tr>
+<td>Open Source</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>In terms of features, despite its simple web-based interface (generated by Gradio), Fooocus has pretty much all the major functions you might expect:</p>
+<table>
+<thead>
+<tr>
+<th>Midjourney</th>
+<th>Fooocus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V1 V2 V3 V4 Image Variations</td>
+<td>Supported via Input Image -&gt; Upscale or Variation -&gt; Vary</td>
+</tr>
+<tr>
+<td>U1 U2 U3 U4 Upscaling</td>
+<td>Up to 2x upscale via Input Image -&gt; Upscale</td>
+</tr>
+<tr>
+<td>Inpainting</td>
+<td>Supported via Input Image -&gt; Inpaint or Outpaint</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/image-prompts">Image Prompt</a></td>
+<td>Supported via Input Image -&gt; Image Prompt</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/style">--style parameter</a></td>
+<td>Advanced -&gt; Style</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/stylize">Stylize</a></td>
+<td>Advanced -&gt; Guidance</td>
+</tr>
+<tr>
+<td>niji 5 Styles</td>
+<td><a href="https://github.com/lllyasviel/Fooocus/discussions/679">run_anime.bat</a> launcher for anime style</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/quality">--quality parameter</a></td>
+<td>Advanced -&gt; Quality</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/repeat">--repeat parameter</a></td>
+<td>Advanced -&gt; Image Number</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/multi-prompts">Multi Prompts</a></td>
+<td>Simply input prompts in multiple lines</td>
+</tr>
+<tr>
+<td>Prompt Weights</td>
+<td>Similar syntax &quot;I am (happy:1.5)&quot;.</td>
+</tr>
+<tr>
+<td>Negative Prompt</td>
+<td>Supported via Advanced -&gt; Negative Prompt</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/aspect-ratios-1">Aspect Ratio (--ar)</a></td>
+<td>Supported via Advanced -&gt; Aspect Ratios</td>
+</tr>
+<tr>
+<td>InsightFace</td>
+<td>FaceSwap</td>
+</tr>
+<tr>
+<td><a href="https://docs.midjourney.com/docs/describe">/describe command</a></td>
+<td>Supported via Input Image -&gt; Describe</td>
+</tr>
+</tbody>
+</table>
+<h2 id="system-requirements">System Requirements</h2>
+<p>Below is the minimal requirements for running Fooocus locally. If your device capability is lower than these spec, you may not be able to use Fooocus. In this case, running Fooocus in Google Colab is your only choice if you want to fiddle with the program.</p>
+<table>
+<thead>
+<tr>
+<th>Operating System</th>
+<th>GPU</th>
+<th>Minimal GPU Memory</th>
+<th>Minimal System Memory</th>
+<th>System Swap</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows/Linux</td>
+<td>Nvidia RTX 4XXX</td>
+<td>4GB</td>
+<td>8GB</td>
+<td>Required</td>
+<td>fastest</td>
+</tr>
+<tr>
+<td>Windows/Linux</td>
+<td>Nvidia RTX 3XXX</td>
+<td>4GB</td>
+<td>8GB</td>
+<td>Required</td>
+<td>usually faster than RTX 2XXX</td>
+</tr>
+<tr>
+<td>Windows/Linux</td>
+<td>Nvidia RTX 2XXX</td>
+<td>4GB</td>
+<td>8GB</td>
+<td>Required</td>
+<td>usually faster than GTX 1XXX</td>
+</tr>
+<tr>
+<td>Windows/Linux</td>
+<td>Nvidia GTX 1XXX</td>
+<td>8GB (* 6GB uncertain)</td>
+<td>8GB</td>
+<td>Required</td>
+<td>only marginally faster than CPU</td>
+</tr>
+<tr>
+<td>Windows/Linux</td>
+<td>Nvidia GTX 9XX</td>
+<td>8GB</td>
+<td>8GB</td>
+<td>Required</td>
+<td>faster or slower than CPU</td>
+</tr>
+<tr>
+<td>Windows/Linux</td>
+<td>Nvidia GTX &lt; 9XX</td>
+<td>Not supported</td>
+<td>/</td>
+<td>/</td>
+<td>/</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>AMD GPU</td>
+<td>8GB (updated 2023 Dec 30)</td>
+<td>8GB</td>
+<td>Required</td>
+<td>via DirectML (* ROCm is on hold), about 3x slower than Nvidia RTX 3XXX</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>AMD GPU</td>
+<td>8GB</td>
+<td>8GB</td>
+<td>Required</td>
+<td>via ROCm, about 1.5x slower than Nvidia RTX 3XXX</td>
+</tr>
+<tr>
+<td>Mac</td>
+<td>M1/M2 MPS</td>
+<td>Shared</td>
+<td>Shared</td>
+<td>Shared</td>
+<td>about 9x slower than Nvidia RTX 3XXX</td>
+</tr>
+<tr>
+<td>Windows/Linux/Mac</td>
+<td>only use CPU</td>
+<td>0GB</td>
+<td>32GB</td>
+<td>Required</td>
+<td>about 17x slower than Nvidia RTX 3XXX</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>AMD GPU ROCm (on hold): The AMD is still working on supporting ROCm on Windows.</p>
+</li>
+<li><p>Nvidia GTX 1XXX 6GB uncertain: There are people reported their successes on 6GB GTX 10XX, but some other fails on the same tasks.</p>
+</li>
+</ul>
+<h2 id="how-to-install">How to install</h2>
+<h3 id="windows">Windows</h3>
+<ol>
+<li>Download Fooocus V2 from <a href="https://github.com/lllyasviel/Fooocus/releases">the release page</a>. The current version is <strong>Fooocus_win64_2-1-831</strong> based on CUDA 12 and Pytorch2.1. If you have an older device, you might want to use the <code>previous_old_xformers_env.7z</code> patch. This will update your system to use CUDA version 11.8 and PyTorch version 2.0, while keeping an older version of xformers.</li>
+<li>Run one of the following files to launch Fooocus: <code>run.bat</code>, <code>run_anime.bat</code> or <code>run_realistic.bat</code>. The filename implies which image style you want to generate.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Windows</th>
+<th>Linux args</th>
+<th>Main Model</th>
+<th>Refiner</th>
+<th>Config</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General</td>
+<td>run.bat</td>
+<td></td>
+<td><a href="https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors">juggernautXL v6_RunDiffusion</a></td>
+<td>not used</td>
+<td><a href="https://github.com/lllyasviel/Fooocus/blob/main/modules/path.py">here</a></td>
+</tr>
+<tr>
+<td>Realistic</td>
+<td>run_realistic.bat</td>
+<td>--preset realistic</td>
+<td><a href="https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors">realistic_stock_photo</a></td>
+<td>not used</td>
+<td><a href="https://github.com/lllyasviel/Fooocus/blob/main/presets/realistic.json">here</a></td>
+</tr>
+<tr>
+<td>Anime</td>
+<td>run_anime.bat</td>
+<td>--preset anime</td>
+<td><a href="https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/bluePencilXL_v050.safetensors">bluepencil_v50</a></td>
+<td><a href="https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors">dreamsharper_v8</a> (SD1.5)</td>
+<td><a href="https://github.com/lllyasviel/Fooocus/blob/main/presets/anime.json">here</a></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Access the web interface at the local URL provided in the command line (usually <code>http://127.0.0.1:7865/</code>). You can also access it from the other computer using public URL provided (<code>https://xxxxxx.gradio.live</code>)</li>
+<li>Please do note that the very first time you run Fooocus, it will download default models (and inpaint control model), which might take a few . If you encounter error messages or the web interface does nothing, see fixes for common problems <a href="https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md">here</a>.</li>
+</ol>
+<h3 id="linux-using-anaconda-miniconda">Linux using Anaconda/Miniconda</h3>
+<ol>
+<li>Install <code>git</code> and <code>anaconda</code>. If you don&#39;t have Anaconda installed, download and install it from the <a href="https://www.anaconda.com/products/individual">Anaconda Distribution page</a>.</li>
+<li><strong>Clone Fooocus Repository</strong>: Assuming <code>git</code> is already installed on your system, clone the Fooocus repository using the following command:<pre><code>git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/lllyasviel/Fooocus.git
+</code></pre></li>
+<li>Navigate to the Fooocus directory and create environment based on pre-defined YAML config:<pre><code>conda env create <span class="hljs-_">-f</span> environment.yaml
+</code></pre></li>
+<li>Activate <code>fooocus</code> environment (the name is taken from the YAML config) and install required packages.<pre><code>conda <span class="hljs-built_in">activate</span> fooocus
+pip install -r requirements_versions.txt
+</code></pre></li>
+<li>Run the launcher and let it download all the models automatically<pre><code><span class="hljs-keyword">python</span> entry_with_update.<span class="hljs-keyword">py</span>
+</code></pre></li>
+<li>If you want to generate &quot;anime&quot; or &quot;realistic&quot; style images, run either <code>python entry_with_update.py --preset anime</code> or <code>python entry_with_update.py --preset realistic</code>.</li>
+</ol>
+<h3 id="fooocus-in-colab">Fooocus in Colab</h3>
+<ol>
+<li><a href="https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb"><img src="https://camo.githubusercontent.com/f5e0d0538a9c2972b5d413e0ace04cecd8efd828d133133933dfffec282a4e1b/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="Open In Colab"></a> Click on this button to open the pre-made Fooocus Jupyter Notebook.</li>
+<li>Click <strong>Connect</strong> at the upper right corner. ![[/theme/img/fooocus_colab.png]]</li>
+<li>Once connected to the &quot;core&quot; of Google Colab, click the &quot;play&quot; button in the left side of the code snippet. ![[/theme/img/fooocus_colab_run.png]]</li>
+<li>You will see a public <code>gradio.live</code> URL in the terminal output. Open this URL and you can begin fiddling with Fooocus. ![[/theme/img/fooocus_colab_live.png]]</li>
+</ol>
+<p><strong>This unofficial site was set up to provide a reliable place to gather resources about Foooocus, as well as to provide easy access to documentation.</strong></p>
+
     
 
 
