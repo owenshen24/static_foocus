@@ -32,4 +32,16 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = "zurb-F5-basic-theme"
+THEME = "basic-theme"
+
+
+
+
+# ARCHIVES_SAVE_AS = 'archives.html'
+ARCHIVES_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+DAY_ARCHIVE_SAVE_AS = ''
+MONTH_ARCHIVE_SAVE_AS = ''
+YEAR_ARCHIVE_SAVE_AS = ''
