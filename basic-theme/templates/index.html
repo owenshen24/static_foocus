@@ -303,14 +303,20 @@ pip install -r requirements_versions.txt
 <h3 id="fooocus-in-colab">Fooocus in Colab</h3>
 <ol>
 <li><a href="https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb"><img src="https://camo.githubusercontent.com/f5e0d0538a9c2972b5d413e0ace04cecd8efd828d133133933dfffec282a4e1b/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="Open In Colab"></a> Click on this button to open the pre-made Fooocus Jupyter Notebook.</li>
-<li>Click <strong>Connect</strong> at the upper right corner. ![[/images/fooocus_colab.png]]</li>
-<li>Once connected to the &quot;core&quot; of Google Colab, click the &quot;play&quot; button in the left side of the code snippet. ![[/images/fooocus_colab_run.png]]</li>
-<li>You will see a public <code>gradio.live</code> URL in the terminal output. Open this URL and you can begin fiddling with Fooocus. ![[/images/fooocus_colab_live.png]]</li>
+<li>Click <strong>Connect</strong> at the upper right corner. <img src="/images/fooocus_colab.png" alt="Connect to Colab"></li>
+<li>Once connected to the &quot;core&quot; of Google Colab, click the &quot;play&quot; button in the left side of the code snippet. <img src="/images/fooocus_colab_run.png" alt="Run Fooocus code snippet"></li>
+<li>You will see a public <code>gradio.live</code> URL in the terminal output. Open this URL and you can begin fiddling with Fooocus. <img src="/images/fooocus_colab_live.png" alt="Fooocus Colab public URL"></li>
 </ol>
 <p><strong>This unofficial site was set up to provide a reliable place to gather resources about Foooocus, as well as to provide easy access to documentation.</strong></p>
 
-    
 
+<h2 id="faq">FAQ</h2>
+<h3 id="does-fooocus-work-offline-">Does Fooocus work offline?</h3>
+<p>Yes, Fooocus works completely offline against a local trained model. However, you might need an internet connection at the very first launch to download the models from HuggingFace.</p>
+<h3 id="how-can-i-create-the-best-fooocus-prompt-">How can I create the best Fooocus prompt?</h3>
+<p>You don&#39;t need to do that. Fooocus already had a GPT2 model to automatically expand and correct your prompts so that the model produces high quality images.</p>
+<h3 id="fooocus-v2-vs-v1-difference-">Fooocus V2 vs V1 difference?</h3>
+<p>Fooocus V2 has a completely new prompt engine built with GPT2, which offer support for many more styles without spending time building complex prompts (<a href="https://github.com/lllyasviel/Fooocus/discussions/347">View more details</a>)</p>
 
 
 {% endblock content %}
