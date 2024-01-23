@@ -3,6 +3,7 @@ SITENAME = 'Fooocus - an image generating engine focuses on prompting'
 SITEURL = "https://fooocus.dev"
 
 PATH = "content"
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Rome'
 

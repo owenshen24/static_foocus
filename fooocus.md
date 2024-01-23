@@ -31,9 +31,10 @@ Fooocus is a **software tool for generating images based on text prompts**. It's
 -   **Limited model options:**  Currently offers only a few pre-trained models, while other tools have wider selections.
 -   **Early stage of development:**  Potential for bugs and unexpected behavior compared to more established tools.
 
-
+![Alt Text]({static}/images/fooocus_colab.png)
 
 -   **Fooocus GitHub repository:**  [https://github.com/lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus)
+
 
 
 
