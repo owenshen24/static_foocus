@@ -20,7 +20,9 @@
 <div class="top-bar">
 <div class="row">
     <div class="large-9 large-centered columns">
-	    <span class="header-title"><a href="{{ SITEURL }}">{{ SITENAME }}</a></span>
+	    <span class="header-title">
+            <a href="{{ SITEURL }}"><img class="header-image" alt="{{ SITENAME }}" src="/images/fooocus_logo.png" width="300" height="92"></a>
+        </span>
     </div>
 </div>
 </div>
@@ -56,11 +58,9 @@
 
     <!-- Sidebar -->
     <aside class="large-3 columns">
-        <h5 class="sidebar-title">Site</h5>
         <ul class="side-nav">
-            {% if FEED_RSS %}
-            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate">Atom feed</a></li>
-            {% endif %}
+            <li><a href="/forks" rel="alternate">Fooocus forks</a></li>
+
             {% if FEED_RSS %}
             <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
             {% endif %}
