@@ -12,9 +12,11 @@ Similar to other popular open source AI projects like AUTOMATIC1111, Fooocus has
 - [MoonRide303/Fooocus-MRE](https://github.com/MoonRide303/Fooocus-MRE)  
 - [metercai/SimpleSDXL](https://github.com/metercai/SimpleSDXL)
 - [pppoe/Fooocus-SAM](https://github.com/pppoe/Fooocus-SAM)
+
 Each and every fork has their own set of improvements and new features.
 
 ## Fooocus vs Fooocus-Control
+
 Fooocus-Control is now renamed to Fooocus-ControlNet-SDXL.
 The software is a fork of Fooocus combined with [ControlNet](https://github.com/lllyasviel/ControlNet), [SDXL](https://github.com/Stability-AI/generative-models) and applied a [IP-Adapter](https://ip-adapter.github.io/) to add advanced features:
 - Sketch: Use a sketch as image prompt input and generate images with elements in the sketch included.
@@ -24,9 +26,10 @@ The software is a fork of Fooocus combined with [ControlNet](https://github.com/
 - MaskInpaint: Create a mask and lets the AI do its thing in that area only.
 ![Fooocus-ControlNet-SDXL Sketch feature](https://github.com/fenneishi/Fooocus-ControlNet-SDXL/raw/main/asset/sketch/sketch.png)
 
-There are more ControlNet features coming, see more at **https://github.com/fenneishi/Fooocus-ControlNet-SDXL**
+There are more ControlNet features coming, see more at **[https://github.com/fenneishi/Fooocus-ControlNet-SDXL](https://github.com/fenneishi/Fooocus-ControlNet-SDXL)**
 
 ## Fooocus vs RuinedFooocus
+
 RuinedFooocus is another Fooocus fork. Multiple enhancements have been added, mostly improvements on user interface.
 ### Customization and Personalization
 - **Custom Styles and Themes**: Select from custom styles and themes in `settings/styles.csv`.
@@ -64,9 +67,10 @@ RuinedFooocus is another Fooocus fork. Multiple enhancements have been added, mo
 - **Notification System**: Audio alerts upon generation completion.
 - **Metadata Viewer**: Easily inspect image metadata.
 
-**More info: https://github.com/runew0lf/RuinedFooocus**
+**More info: [https://github.com/runew0lf/RuinedFooocus](https://github.com/runew0lf/RuinedFooocus)**
 
 ## Fooocus vs Fooocus-MRE
+
 Fooocus-MRE stands for "MoonRide Edition", named after its main developer/maintainer [MoonRide303](https://github.com/MoonRide303). It's got a few more features compared to the original Fooocus:
 - **Image-2-Image:** Support for Image-2-Image mode, Upscaling via Image-2-Image (requires more VRAM), generate multiple images using same seed in Image-2-Image mode.
 - Control-LoRA model card:  Canny Edge, Revision, Revision are supported.
@@ -83,9 +87,10 @@ Fooocus-MRE stands for "MoonRide Edition", named after its main developer/mainta
 - Style Iterator (iterates over selected style(s) combined with remaining styles - S1, S1 + S2, S1 + S3, S1 + S4, and so on; for comparing styles pick no initial style, and use same seed for all images).
 - Limited support for non-SDXL models
 
-**More info: https://github.com/MoonRide303/Fooocus-MRE**
+**More info: [https://github.com/MoonRide303/Fooocus-MRE](https://github.com/MoonRide303/Fooocus-MRE)**
 
 ## Fooocus vs Fooocus-SAM
+
 SAM stands for Segment-Anything Model, which primarily aims to produce high quality object masks from input prompts such as points or boxes. See the demo image and you'll know how it works:
 ![](https://github.com/facebookresearch/segment-anything/raw/main/assets/masks2.jpg?raw=true)
 Having marked an area as a mask, we can keep or reproduce 
@@ -93,9 +98,10 @@ Fooocus-SAM adds [EfficientSAM](https://github.com/yformer/EfficientSAM), which
 ![Fooocus-SAM draw the mask](https://raw.githubusercontent.com/pppoe/images-repo/main/blog/fooocus-sam/sam-mask.webp)
 
 ![Fooocus-SAM mask identified](https://raw.githubusercontent.com/pppoe/images-repo/main/blog/fooocus-sam/sam-mask-res.webp)
-**More information: https://github.com/pppoe/Fooocus-SAM**
+**More information: [https://github.com/pppoe/Fooocus-SAM](https://github.com/pppoe/Fooocus-SAM)**
 
 ## Fooocus vs SimpleSDXL
+
 SimpleSDXL is a fork of Fooocus aimed towards Chinese users. Its main features includes:
 - Chinese and English prompts supported.
 - Chinese UI (texts and buttons)
@@ -103,4 +109,4 @@ SimpleSDXL is a fork of Fooocus aimed towards Chinese users. Its main features i
 - Local model source is supported (to avoid the Chinese GFW)
 - Segment-Anything Model supported for masking.
 
-**More information: https://github.com/metercai/SimpleSDXL**
+**More information: [https://github.com/metercai/SimpleSDXL](https://github.com/metercai/SimpleSDXL)**
