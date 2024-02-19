@@ -90,3 +90,9 @@ body { background-color: #fffff9; }
 		line-height: 1.4;
 	}
 }
+
+
+.content-nav {
+	font-weight: 600;
+    font-size: 1.25rem;
+}
