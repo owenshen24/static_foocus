@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Fooocus Describe</title>
+
+    <link rel="stylesheet" href="https://fooocus.dev/theme/css/normalize.css" />
+    <link rel="stylesheet" href="https://fooocus.dev/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="https://fooocus.dev/theme/css/style.css" />
+    <link rel="stylesheet" href="https://fooocus.dev/theme/css/pygments.css" />	
+    <script src="https://fooocus.dev/theme/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <span class="header-title">
+            <a href="https://fooocus.dev"><img class="header-image" alt="Fooocus - an image generating engine focuses on prompting" src="/images/fooocus_logo.png" width="300" height="92"></a>
+        </span>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+<article>
+    <header>
+        <h3 class="article-title"><a href="https://fooocus.dev/forks.html" rel="bookmark"
+        title="Permalink to Fooocus Describe">Fooocus Describe</a></h3>
+    </header>
+
+<h6 class="subheader" title="2024-01-06T10:20:00+01:00">T7 06 Tháng 1 2024
+</h6>
+
+Translations: 
+        <a href="https://fooocus.dev/forks.html">en</a>
+
+    <p>In Midjourney, the <code>/describe</code> command analyzes the uploaded image and generates text prompts inspired by it. Since version 2.1.831, Fooocus has added a similar tool.</p>
+<p>In order to access it, check the <strong>Input Image</strong> checkbox.</p>
+<p><img alt="input image" src="/images/input_image.png"></p>
+<p>Next, switch to <strong>Describe</strong> tab and upload an image either by drag-and-drop or click-to-upload. Now click <strong>Describe this Image into Prompt</strong>.</p>
+<p><img alt="Describe this Image into Prompt" src="/images/describe.png"></p>
+<p>The tool works pretty well with anime input, too.</p>
+<p><img alt="Describe this anime into Prompt" src="/images/describe_anime.png"></p>
+<h2>Fooocus describe vs Midjourney <code>/describe</code></h2>
+<p>Just like Midjourney <code>/describe</code>, you can get multiple description by clicking <strong>Describe this Image into Prompt</strong> multiple times. However, it only works in <strong>Photograph</strong> mode.</p>
+<p>If you're also a developer, you should know that there are <a href="https://github.com/lllyasviel/Fooocus/discussions/1363">a few differences between Fooocus Describe and other open-source software (which uses CLIP Interrogator)</a>:</p>
+<ol>
+<li>Fooocus Describe is less likely to yield repeated failure cases than CLIP Interrogator, like “in a hat, in a hat, in a hat, in a hat, in a hat, in a hat”.</li>
+<li>Fooocus Describe will not randomly add artist names and website names into your prompt. (Most CLIP Interrogator implementation will add nearly random artist names and noisy website names)</li>
+<li>Fooocus Describe is based on <a href="https://github.com/salesforce/BLIP">BLIP</a> like CLIP Interrogator, but the model choice is based on computation power of most devices.</li>
+<li>The Anime/Art Describe is based on WD-Tagger-V2 best model. That's why you'll see a different kind of description generated in Photograph and Anime/Art modes.</li>
+</ol>
+<p class="subheader">Category: <a href="https://fooocus.dev/category/misc.html">misc</a>
+
+</p>
+
+
+Translations: 
+        <a href="https://fooocus.dev/forks.html">en</a>
+
+
+</article>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <ul class="side-nav content-nav">
+
+            <li><a href="/forks" rel="alternate">Fooocus forks</a></li>
+
+        </ul>
+
+
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="https://github.com/lllyasviel/Fooocus">fooocus Github Repository</a></li>
+            <li><a href="https://www.reddit.com/r/fooocus/">/r/fooocus on Reddit</a></li>
+        </ul>
+		
+
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+              <!--                  <p>Fooocus - an image generating engine focuses on prompting by Fooocus Community</p> -->
+            </div>
+            </div>
+    </div>
+</footer>
+</body>
+</html>

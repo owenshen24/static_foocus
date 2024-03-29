@@ -1,7 +1,7 @@
 Title: Fooocus Describe
 Date: 2024-01-06 10:20
 Modified: 2024-01-06 10:20
-Slug: forks
+Slug: describe-command
 Authors: FooocusFan
 Summary: Fooocus Describe
 
