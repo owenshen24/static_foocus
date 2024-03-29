@@ -109,4 +109,4 @@ SimpleSDXL is a fork of Fooocus aimed towards Chinese users. Its main features i
 - Local model source is supported (to avoid the Chinese GFW)
 - Segment-Anything Model supported for masking.
 
-**More information: [https://github.com/metercai/SimpleSDXL](https://github.com/metercai/SimpleSDXL)**
+**More info: [https://github.com/metercai/SimpleSDXL](https://github.com/metercai/SimpleSDXL)**
